@@ -11,7 +11,7 @@
       </a>
       {% empty %}
       <div class="caption">
-        <em>{% trans "Image not found" %}</em>
+        <em>{% trans "Image not found" %}: {{ revision.image }}</em>
       </div>
     {% endthumbnail %}
     <div class="caption">
